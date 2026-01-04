@@ -1,0 +1,93 @@
+.transactions-container {
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.transactions-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.transactions-content h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.transactions-table thead {
+  background: #f0f0f0;
+  border-bottom: 2px solid #ddd;
+}
+
+.transactions-table th {
+  padding: 1rem;
+  text-align: left;
+  color: #666;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.transactions-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+.transactions-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.no-data {
+  text-align: center;
+  color: #999;
+  padding: 2rem !important;
+}
+
+.status-success {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.status-failed {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.status-processing {
+  color: #f39c12;
+  font-weight: 600;
+}
+
+.back-button {
+  padding: 0.5rem 1rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.back-button:hover {
+  background: #764ba2;
+}
+
+@media (max-width: 768px) {
+  .transactions-table {
+    font-size: 0.9rem;
+  }
+
+  .transactions-table th,
+  .transactions-table td {
+    padding: 0.75rem 0.5rem;
+  }
+}
