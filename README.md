@@ -1,3 +1,13 @@
+# Partnr - Payment Gateway Project
+
+![Partnr Logo](https://www.partnr.ai/static/media/logo.png)
+
+**Submitted by:** Nandini Jerripothula  
+**Task:** Build Payment Gateway with Multi-Method Processing and Hosted Checkout  
+**Status:** Ready for Submission
+
+---
+
 # Payment Gateway - Complete Implementation
 
 A fully functional payment gateway similar to Razorpay or Stripe, with multi-method payment processing (UPI and Cards), merchant authentication, and a hosted checkout page.
